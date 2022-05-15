@@ -29,7 +29,7 @@ div img{
     left: 250px;
     width: 100px;
     position: absolute;
-    animation: movimento-cavalo 10s infinite;
+    animation: movimento-cavalo 20s infinite;
 }
 
 
@@ -38,11 +38,19 @@ div img{
     5%{top: 248px; left: 10px;}
     10%{top: 128px; left: 10px;}
     15%{top: 248px; left: 10px;}
-    20%{top: 248px; left: 250px;}
-    25%{top: 12px; left: 250px;}
-    30%{top: 12px; left: 130px;}
-    35%{top: 12px; left: 250px;}
-    40%{top: 248px; left: 250px;}
+    25%{top: 248px; left: 250px;}
+    30%{top: 12px; left: 250px;}
+    35%{top: 12px; left: 130px;}
+    40%{top: 12px; left: 250px;}
+    50%{top: 248px; left: 250px;}
+    55%{top: 248px; left: 490px;}
+    60%{top: 368px; left: 490px;}
+    65%{top: 248px; left: 490px;}
+    75%{top: 248px; left: 250px;}
+    80%{top: 488px; left: 250px;}
+    85%{top: 488px; left: 370px;}
+    90%{top: 488px; left: 250px;}
+    100%{top: 248px; left: 250px;}
 }
 
 /*@keyframes movimento-cavalo{
