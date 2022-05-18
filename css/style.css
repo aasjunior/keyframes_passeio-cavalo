@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 div{
-    width: 960px;
-    height: 960px;
+    width: 720px;
+    height: 720px;
     position: absolute;
 }
 .tabuleiro{
@@ -19,33 +19,33 @@ div{
 }
 
 div img{
-    top: 12px;
-    left: 130px;
-    width: 100px;
+    top: 10px;
+    left: 100px;
+    width: 70px;
     position: absolute;
-    animation: movimento-cavalo 35s infinite;
+    animation: movimento-cavalo 30s infinite;
 }
 
 
 @keyframes movimento-cavalo {
-    0%{top: 12px; left: 130px;}
-    5%{top: 252px; left: 130px;}
-    15%{top: 252px; left: 250px;}
-    20%{top: 492px; left: 250px;}
-    25%{top: 492px; left: 370px;}
-    30%{top: 732px; left: 370px;}
-    35%{top: 732px; left: 490px;}
-    40%{top: 732px; left: 490px;}
-    45%{top: 732px; left: 730px;}
-    50%{top: 852px; left: 730px;}
-    55%{top: 852px; left: 730px;}
-    60%{top: 612px; left: 730px;}
-    65%{top: 612px; left: 610px;}
-    70%{top: 612px; left: 370px;}
-    75%{top: 492px; left: 370px;}
-    80%{top: 252px; left: 370px;}
-    85%{top: 252px; left: 250px;}
-    90%{top: 12px; left: 250px;}
-    95%{top: 12px; left: 130px;}
-    100%{top: 12px; left: 130px;}
+    0%{top: 10px; left: 100px;}
+    5%{top: 190px; left: 100px;}
+    15%{top: 190px; left: 190px;}
+    20%{top: 370px; left: 190px;}
+    25%{top: 370px; left: 280px;}
+    30%{top: 550px; left: 280px;}
+    35%{top: 550px; left: 370px;}
+    40%{top: 550px; left: 550px;}
+    45%{top: 640px; left: 550px;}
+    50%{top: 640px; left: 550px;}
+    55%{top: 640px; left: 550px;}
+    60%{top: 460px; left: 550px;}
+    65%{top: 460px; left: 460px;}
+    70%{top: 460px; left: 280px;}
+    75%{top: 370px; left: 280px;}
+    80%{top: 190px; left: 280px;}
+    85%{top: 190px; left: 190px;}
+    90%{top: 10px; left: 190px;}
+    95%{top: 10px; left: 100px;}
+    100%{top: 10px; left: 100px;}
 }
