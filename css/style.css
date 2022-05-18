@@ -6,9 +6,6 @@
 div{
     width: 960px;
     height: 960px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     position: absolute;
 }
 .tabuleiro{
@@ -26,47 +23,29 @@ div img{
     left: 130px;
     width: 100px;
     position: absolute;
-    animation: movimento-cavalo 20s infinite;
+    animation: movimento-cavalo 35s infinite;
 }
 
 
 @keyframes movimento-cavalo {
     0%{top: 12px; left: 130px;}
-    10%{top: 252px; left: 130px;}
-    20%{top: 252px; left: 250px;}
-    30%{top: 492px; left: 250px;}
-    40%{top: 492px; left: 370px;}
-    50%{top: 732px; left: 370px;}
-    60%{top: 732px; left: 490px;}
-    70%{top: 732px; left: 730px;}
-    80%{top: 852px; left: 730px;}
+    5%{top: 252px; left: 130px;}
+    15%{top: 252px; left: 250px;}
+    20%{top: 492px; left: 250px;}
+    25%{top: 492px; left: 370px;}
+    30%{top: 732px; left: 370px;}
+    35%{top: 732px; left: 490px;}
+    40%{top: 732px; left: 490px;}
+    45%{top: 732px; left: 730px;}
+    50%{top: 852px; left: 730px;}
+    55%{top: 852px; left: 730px;}
+    60%{top: 612px; left: 730px;}
+    65%{top: 612px; left: 610px;}
+    70%{top: 612px; left: 370px;}
+    75%{top: 492px; left: 370px;}
+    80%{top: 252px; left: 370px;}
+    85%{top: 252px; left: 250px;}
+    90%{top: 12px; left: 250px;}
+    95%{top: 12px; left: 130px;}
+    100%{top: 12px; left: 130px;}
 }
-/*@keyframes movimento-cavalo{
-    0%{top: 248px; left: 250px;}
-    5%{top: 248px; left: 10px;}
-    10%{top: 128px; left: 10px;}
-    15%{top: 248px; left: 10px;}
-    25%{top: 248px; left: 250px;}
-    30%{top: 12px; left: 250px;}
-    35%{top: 12px; left: 130px;}
-    40%{top: 12px; left: 250px;}
-    50%{top: 248px; left: 250px;}
-    55%{top: 248px; left: 490px;}
-    60%{top: 368px; left: 490px;}
-    65%{top: 248px; left: 490px;}
-    75%{top: 248px; left: 250px;}
-    80%{top: 488px; left: 250px;}
-    85%{top: 488px; left: 370px;}
-    90%{top: 488px; left: 250px;}
-    100%{top: 248px; left: 250px;}
-}*/
-
-/*@keyframes movimento-cavalo{
-    0%{top: 10px; left: 10px;}
-    25%{top: 280px; left: 10px;}
-    50%{top:280px; left: 150px;}
-    75%{top: 280px; left: 10px;}
-    100%{top: 10px; left: 10px;}
-
-}*/
-
