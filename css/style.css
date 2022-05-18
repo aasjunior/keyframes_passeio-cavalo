@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 div{
-    width: 600px;
-    height: 600px;
+    width: 960px;
+    height: 960px;
     /*display: flex;
     justify-content: center;
     align-items: center;*/
@@ -17,23 +17,31 @@ div{
     border: 1px solid #000;
     position: absolute;
 }
-.tabuleiro td{
-    border: 1px solid #000;
-}
 .tabuleiro .preto{
     background-color: #555;
 }
 
 div img{
-    top: 248px;
-    left: 250px;
+    top: 12px;
+    left: 130px;
     width: 100px;
     position: absolute;
     animation: movimento-cavalo 20s infinite;
 }
 
 
-@keyframes movimento-cavalo{
+@keyframes movimento-cavalo {
+    0%{top: 12px; left: 130px;}
+    10%{top: 252px; left: 130px;}
+    20%{top: 252px; left: 250px;}
+    30%{top: 492px; left: 250px;}
+    40%{top: 492px; left: 370px;}
+    50%{top: 732px; left: 370px;}
+    60%{top: 732px; left: 490px;}
+    70%{top: 732px; left: 730px;}
+    80%{top: 852px; left: 730px;}
+}
+/*@keyframes movimento-cavalo{
     0%{top: 248px; left: 250px;}
     5%{top: 248px; left: 10px;}
     10%{top: 128px; left: 10px;}
@@ -51,7 +59,7 @@ div img{
     85%{top: 488px; left: 370px;}
     90%{top: 488px; left: 250px;}
     100%{top: 248px; left: 250px;}
-}
+}*/
 
 /*@keyframes movimento-cavalo{
     0%{top: 10px; left: 10px;}
